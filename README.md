@@ -20,11 +20,11 @@ Tested on Python 3.12; should work on 3.9 or later.
 
 Or:
 
-uv sync
-uv run pytest -q tests
-uv run python experiments.py
-uv run python utility.py
-uv run python heavy_tail.py
+	uv sync
+	uv run pytest -q tests
+	uv run python experiments.py
+	uv run python utility.py
+	uv run python heavy_tail.py
 
 ## Layout
 
@@ -53,4 +53,4 @@ uv run python heavy_tail.py
 
 ## Citing
 
-See `CITATION.cff` (GitHub shows a "Cite this repository" button).
+See `CITATION.cff` 
