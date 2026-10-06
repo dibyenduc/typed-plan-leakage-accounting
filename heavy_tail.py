@@ -68,7 +68,9 @@ for name, (a, b) in DEF.items():
     data += [mle[10000], hom[10000]]; short = name.split(" (")[0]
     labs += [short + "\nMLE", short + "\nhomog."]
     ax2.hlines(asr(a, b, 10000), i + 0.5, i + 2.5, colors="k", linestyles="--", lw=1); i += 2
-ax2.boxplot(data, labels=labs, showfliers=False)
+ax2.boxplot(data, showfliers=False)
+ax2.set_xticks(range(1, len(labs) + 1))
+ax2.set_xticklabels(labs)
 ax2.set_ylabel("predicted ASR at N=10,000"); ax2.set_ylim(0, 1.02)
 ax2.set_title("Predicting from 300 tasks x 20 attempts (dashes = truth)", fontsize=10)
 plt.tight_layout(); plt.savefig("heavy_tail.png", dpi=150)

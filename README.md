@@ -18,6 +18,14 @@ Tested on Python 3.12; should work on 3.9 or later.
     python utility.py        # utility_curve.csv, utility_curve.png
     python heavy_tail.py     # heavy_tail_results.csv, heavy_tail.png (fixed seed 2026)
 
+Or:
+
+uv sync
+uv run pytest -q tests
+uv run python experiments.py
+uv run python utility.py
+uv run python heavy_tail.py
+
 ## Layout
 
 | File | Purpose |
