@@ -1,0 +1,16 @@
+[project]
+name = "typed-plan-leakage-accounting"
+version = "0.1.0"
+description = "Bits-per-session leakage accounting for typed agent plans, with adaptive-attacker experiments"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+]
