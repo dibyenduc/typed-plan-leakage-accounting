@@ -1,0 +1,16 @@
+suite,budget_bits,utility_pct_oracle,sessions_to_recover_40bit
+workspace,0,47.5,inf
+workspace,1,95.0,40
+workspace,3,100.0,14
+travel,0,0.0,inf
+travel,1,90.0,40
+travel,3,100.0,14
+banking,0,18.8,inf
+banking,1,56.2,40
+banking,3,100.0,14
+slack,0,19.0,inf
+slack,1,57.1,40
+slack,3,100.0,14
+all (97 tasks),0,26.8,inf
+all (97 tasks),1,79.4,40
+all (97 tasks),3,100.0,14

@@ -1,0 +1,21 @@
+channel,q,empirical_bits,bound_bits
+"1. compare (K=2, N=16)",1,1.0,1.0
+"1. compare (K=2, N=16)",2,2.0,2.0
+"1. compare (K=2, N=16)",3,3.0,3.0
+"1. compare (K=2, N=16)",4,4.0,4.0
+"2. loop count (K=10, N=10)",1,3.322,3.322
+"2. loop count (K=10, N=10)",2,3.322,3.322
+"2. loop count (K=10, N=10)",3,3.322,3.322
+"2. loop count (K=10, N=10)",4,3.322,3.322
+"3. windowed loop (K=4, N=16)",1,2.0,2.0
+"3. windowed loop (K=4, N=16)",2,3.322,4.0
+"3. windowed loop (K=4, N=16)",3,4.0,4.0
+"3. windowed loop (K=4, N=16)",4,4.0,4.0
+"4. exception, HALT visible (K=2, N=16)",1,1.0,1.0
+"4. exception, HALT visible (K=2, N=16)",2,2.0,2.0
+"4. exception, HALT visible (K=2, N=16)",3,3.0,3.0
+"4. exception, HALT visible (K=2, N=16)",4,4.0,4.0
+"5. exception, HALT hidden (K=2, N=16)",1,0.0,1.0
+"5. exception, HALT hidden (K=2, N=16)",2,0.0,2.0
+"5. exception, HALT hidden (K=2, N=16)",3,0.0,3.0
+"5. exception, HALT hidden (K=2, N=16)",4,0.0,4.0

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Static Trace-Capacity Accounting for Typed Agent Plans"
+type: software
+version: 0.1.0
+date-released: 2026-10-06
+authors:
+  - family-names: "Chakrabarti"
+    given-names: "Dibyendu"
+license: MIT
+repository-code: "https://github.com/YOUR-USERNAME/typed-plan-leakage-accounting"
+abstract: "A static, type-derived bits-per-session ledger for planner-style agent defenses, with an exact optimal adaptive-attacker experiment, an imposed-policy utility curve, and a heavy-tail attack-success simulation. Draft v1."
+keywords:
+  - agent security
+  - quantitative information flow
+  - information-flow control
+  - side channels
